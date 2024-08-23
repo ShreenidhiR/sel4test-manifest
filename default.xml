@@ -4,9 +4,9 @@
    SPDX-License-Identifier: BSD-2-Clause
 -->
 <manifest>
-  <remote name="nanopb" fetch="git@ssh.gitlab.engine.capgemini.com:software-engineering/germany/bosch-gmbh/nanopb.git"/>
-  <remote name="opensbi" fetch="git@ssh.gitlab.engine.capgemini.com:software-engineering/germany/bosch-gmbh/opensbi.git"/>
-  <remote name="seL4" fetch="git@ssh.gitlab.engine.capgemini.com:software-engineering/germany/bosch-gmbh/seL4.git"/>
+  <remote name="nanopb" fetch="ssh://git@ssh.gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/nanopb.git"/>
+  <remote name="opensbi" fetch="ssh://git@ssh.gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/opensbi.git"/>
+  <remote name="seL4" fetch="ssh://git@ssh.gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/seL4.git"/>
   
   <default remote="seL4" revision="master"/>
   
