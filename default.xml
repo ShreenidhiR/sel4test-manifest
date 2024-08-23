@@ -14,12 +14,12 @@
   <project name="seL4" path="kernel"  upstream="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/seL4_libs" />
   <project name="util_libs" path="projects/util_libs"  remote="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/util_libs"/>
   <project name="seL4_libs" path="projects/seL4_libs"  upstream="master" remote="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/seL4_libs"/>
-  <project name="seL4_tools" path="tools/seL4"  upstream="master" remote="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/sel4_tools"/>
+  <project name="seL4_tools" path="tools/seL4"  upstream="master" remote="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/sel4_tools">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime"  upstream="master" remote="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/sel4runtime" />
-  <project name="sel4test.git" path="projects/sel4test"  upstream="master" remote="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/sel4test"/>
+  <project name="sel4test.git" path="projects/sel4test"  upstream="master" remote="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh/sel4test">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
 
