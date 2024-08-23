@@ -10,7 +10,7 @@
   <project name="musllibc" path="projects/musllibc" upstream="master"/>
   <project name="nanopb" path="tools/nanopb" upstream="master" />
   <project name="opensbi" path="tools/opensbi" upstream="master" />
-  <project name="seL4" path="kernel" upstream="master" upstream="master" />
+  <project name="seL4" path="kernel" upstream="master"/>
   <project name="util_libs" path="projects/util_libs" upstream="master" />
   <project name="seL4_libs" path="projects/seL4_libs"upstream="master" />
   <project name="seL4_tools" path="tools/seL4" upstream="master">
