@@ -12,7 +12,7 @@
   <project name="opensbi" path="tools/opensbi" upstream="master" />
   <project name="seL4" path="kernel" upstream="master"/>
   <project name="util_libs" path="projects/util_libs" upstream="master" />
-  <project name="seL4_libs" path="projects/seL4_libs"upstream="master" />
+  <project name="seL4_libs" path="projects/seL4_libs" upstream="master" />
   <project name="seL4_tools" path="tools/seL4" upstream="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
