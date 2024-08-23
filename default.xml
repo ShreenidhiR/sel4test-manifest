@@ -10,9 +10,9 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/musllibc"  upstream="sel4" dest-branch="sel4"/>
-  <project name="nanopb" path="tools/nanopb" remote="nanopb"  upstream="master" />
-  <project name="opensbi" path="tools/opensbi" remote="opensbi" upstream="refs/tags/v0.9" />
+  <project name="musllibc.git" path="projects/musllibc"  upstream="sel4" />
+  <project name="nanopb" path="tools/nanopb" remote="nanopb"  />
+  <project name="opensbi" path="tools/opensbi" remote="opensbi" />
   <project name="seL4.git" path="kernel"  upstream="master" />
   <project name="seL4_libs.git" path="projects/seL4_libs"  upstream="master" />
   <project name="seL4_tools.git" path="tools/seL4"  upstream="master" />
