@@ -5,5 +5,5 @@
 -->
 <manifest>
      <include name="common.xml"/>
-     <project name="seL4.git" path="kernel"/>
+     <project name="seL4.git" path="seL4"/>
 </manifest>

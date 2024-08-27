@@ -6,18 +6,19 @@
 <manifest>
   <remote name="seL4" fetch="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh" />
   <default remote="seL4" revision="main" sync-j="4"/>
-  <project name="musllibc" path="projects/musllibc" upstream="main"/>
-  <project name="nanopb" path="tools/nanopb" upstream="master" revision="master"/>
-  <project name="opensbi" path="tools/opensbi" upstream="main" revision="master" />
-  <project name="seL4" path="kernel" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" revision="master" upstream="master" />
-  <project name="seL4_libs" path="projects/seL4_libs" revision="master" upstream="master" />
-  <project name="seL4_tools" path="tools/seL4" revision="master" upstream="master">
-    <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
-    <linkfile src="cmake-tool/griddle" dest="griddle"/>
+  <project name="musllibc" path="seL4_libs/musllibc" upstream="main"/>
+  <project name="nanopb" path="buildsystem/nanopb" upstream="master" revision="master"/>
+  <project name="opensbi" path="buildsystem/opensbi" upstream="main" revision="master" />
+  <project name="seL4" path="seL4" upstream="master"/>
+  <project name="util_libs" path="seL4_libs/util_libs" revision="master" upstream="master" />
+  <project name="seL4_libs" path="seL4_libs/seL4_libs" revision="master" upstream="master" />
+  <project name="seL4_tools" path="buildsystem/cmake-tool" revision="master" upstream="master">
+    <!-- <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
+    <linkfile src="cmake-tool/griddle" dest="griddle"/> -->
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="master" upstream="master"/>
   <project name="sel4test.git" path="projects/sel4test" revision="master" upstream="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
+  <project name="component.git" path="component" revision="main" upstream="master"/>
 </manifest>
