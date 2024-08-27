@@ -18,7 +18,7 @@
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="master" upstream="master"/>
   <project name="sel4test.git" path="projects/sel4test" revision="master" upstream="master">
-    <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
+    <!-- <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/> -->
   </project>
   <project name="component.git" path="component" revision="main" upstream="master"/>
 </manifest>
