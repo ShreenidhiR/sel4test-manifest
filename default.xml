@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   Copyright 2024 seL4 Project a Series of LF Projects, LLC
-   SPDX-License-Identifier: BSD-2-Clause
+     Copyright 2024
+     TODO: add capgemini copyright header
 -->
 <manifest>
   <remote name="seL4" fetch="https://gitlab.engine.capgemini.com/software-engineering/germany/bosch-gmbh" />
-  <default remote="seL4" revision="master"  sync-j="4"/>
-  
-  <project name="musllibc" path="projects/musllibc" upstream="master"/>
-  <project name="nanopb" path="tools/nanopb" upstream="master" />
-  <project name="opensbi" path="tools/opensbi" upstream="master" />
+  <default remote="seL4" revision="main" sync-j="4"/>
+  <project name="musllibc" path="projects/musllibc" upstream="main"/>
+  <project name="nanopb" path="tools/nanopb" upstream="master" revision="master"/>
+  <project name="opensbi" path="tools/opensbi" upstream="main" revision="master" />
   <project name="seL4" path="kernel" upstream="master"/>
-  <project name="util_libs" path="projects/util_libs" upstream="master" />
-  <project name="seL4_libs" path="projects/seL4_libs" upstream="master" />
-  <project name="seL4_tools" path="tools/seL4" upstream="master">
+  <project name="util_libs" path="projects/util_libs" revision="master" upstream="master" />
+  <project name="seL4_libs" path="projects/seL4_libs" revision="master" upstream="master" />
+  <project name="seL4_tools" path="tools/seL4" revision="master" upstream="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
-  <project name="sel4runtime" path="projects/sel4runtime" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" upstream="master" >
+  <project name="sel4runtime" path="projects/sel4runtime" revision="master" upstream="master"/>
+  <project name="sel4test.git" path="projects/sel4test" revision="master" upstream="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-
 </manifest>
