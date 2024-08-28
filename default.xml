@@ -21,5 +21,5 @@
   <project name="sel4test.git" path="projects/sel4test" revision="master" upstream="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="component.git" path="projects/component" revision="main" upstream="master"/>
+  <project name="components.git" path="projects/components" revision="main" upstream="master"/>
 </manifest>
