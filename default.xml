@@ -22,4 +22,6 @@
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="components.git" path="projects/components" revision="main" upstream="master"/>
+  <project name="capdl" path="projects/capdl" upstream="master" revision="master"/>
+  <project name="camkes-tool" path="projects/camkes-tool" upstream="master" revision="master"/>
 </manifest>
