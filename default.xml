@@ -24,5 +24,5 @@
   <project name="components.git" path="projects/components" revision="main" upstream="master"/>
   <project name="capdl" path="projects/capdl" upstream="master" revision="master"/>
   <project name="camkes-tool" path="projects/camkes-tool" upstream="master" revision="master"/>
-  <project name="projects_libs.git" path="projects/projects_libs" revision="main" upstream="master"/>
+  <project name="projects_libs.git" path="projects/projects_libs" revision="master" upstream="master"/>
 </manifest>
