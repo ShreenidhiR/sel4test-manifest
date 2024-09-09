@@ -18,10 +18,9 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" upstream="master" revision="master"/>
   <project name="sel4runtime" path="projects/sel4runtime" revision="master" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="master" upstream="master">
+  <project name="components.git" path="projects/components" revision="main" upstream="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="components.git" path="projects/components" revision="main" upstream="master"/>
   <project name="capdl" path="projects/capdl" upstream="master" revision="master"/>
   <project name="camkes-tool" path="projects/camkes-tool" upstream="master" revision="master"/>
   <project name="projects_libs.git" path="projects/projects_libs" revision="master" upstream="master"/>
